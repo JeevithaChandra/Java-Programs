@@ -26,3 +26,19 @@ public class DataInMIDS {
 }
 // Wanted to see how branches work. That is why i am modifying this file.
 //working on the issue53
+
+// Testing bag info added
+package multiple.instance.ds;
+
+import java.util.ArrayList;
+
+public class DataInTestBag {
+	ArrayList<ArrayList<String>> DATA = new ArrayList<ArrayList<String>>();
+	int no_of_bags = 0;
+	ArrayList<String> bagnames = new ArrayList<>();
+	ArrayList<String> classes = new ArrayList<>();
+	ArrayList<String> predicted_classes = new ArrayList<>();
+	
+	int s=0;//number of instances
+	int k=0;//number of features
+}
